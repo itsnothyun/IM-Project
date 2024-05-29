@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellmeadows Hospital Staff Form</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="staff-form.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="text-center">
+            <h1 class="display-4">Wellmeadows Hospital</h1>
+            <p class="lead">Staff Form</p>
+            <div class="staff-number-box">
+                <span>Staff Number: S011</span>
+            </div>
+        </div>
+        <form>
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h3 class="card-title">Personal Details</h3>
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" class="form-control" id="firstName" value="Moira" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" class="form-control" id="lastName" value="Samuel" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <input type="text" class="form-control" id="address" value="49 School Road, Broxburn" readonly>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="sex">Sex</label>
+                            <input type="text" class="form-control" id="sex" value="Female" readonly>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="dob">Date of Birth</label>
+                            <input type="text" class="form-control" id="dob" value="30-May-61" readonly>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Tel. No.</label>
+                        <input type="text" class="form-control" id="phone" value="01506-45633" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="nin">NIN</label>
+                        <input type="text" class="form-control" id="nin" value="WB123423D" readonly>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="position">Position</label>
+                            <input type="text" class="form-control" id="position" value="Charge Nurse" readonly>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="allocated">Allocated</label>
+                            <input type="text" class="form-control" id="allocated" value="11 to ward" readonly>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="currentSalary">Current Salary</label>
+                            <input type="text" class="form-control" id="currentSalary" value="18.760" readonly>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="salaryScale">Salary Scale</label>
+                            <input type="text" class="form-control" id="salaryScale" value="1C scale" readonly>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="paymentFrequency">Paid weekly or Monthly</label>
+                            <input type="text" class="form-control" id="paymentFrequency" value="Monthly" readonly>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="hoursPerWeek">Hours/Week</label>
+                            <input type="text" class="form-control" id="hoursPerWeek" value="37.5" readonly>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="employmentType">Permanent or Temporary</label>
+                            <input type="text" class="form-control" id="employmentType" value="Permanent" readonly>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h3 class="card-title">Qualifications</h3>
+                    <div class="form-group">
+                        <label for="qualificationType">Type</label>
+                        <input type="text" class="form-control" id="qualificationType" value="BSc Nursing Studies" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="qualificationDate">Date</label>
+                        <input type="text" class="form-control" id="qualificationDate" value="12-Jul-87" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="institution">Institution</label>
+                        <input type="text" class="form-control" id="institution" value="Edinburgh Unit" readonly>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h3 class="card-title">Work Experience</h3>
+                    <div class="form-group">
+                        <label for="workPosition">Position</label>
+                        <input type="text" class="form-control" id="workPosition" value="Staff Nurse" readonly>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="startDate">Start Date</label>
+                            <input type="text" class="form-control" id="startDate" value="23-Jan-90" readonly>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="finishDate">Finish Date</label>
+                            <input type="text" class="form-control" id="finishDate" value="1-May-93" readonly>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="organization">Organization</label>
+                        <input type="text" class="form-control" id="organization" value="Western Hospital" readonly>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h3 class="card-title">Patient Details</h3>
+                    <div class="patient-details">
+                        <p><strong>Patient Name:</strong> John Doe</p>
+                        <p><strong>Patient ID:</strong> P12345</p>
+                        <p><strong>Admission Date:</strong> 15-Apr-2024</p>
+                        <p><strong>Ward:</strong> Ward 3</p>
+                        <p><strong>Condition:</strong> Stable</p>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
