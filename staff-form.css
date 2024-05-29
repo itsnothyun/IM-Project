@@ -53,3 +53,22 @@ h1 {
 .patient-details p {
     margin-bottom: 10px;
 }
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    width: 100%; /* Make button fill the form's width */
+    box-sizing: border-box; /* Include padding in the width */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 20px; /* Slightly rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-align: center;
+}
+button:hover {
+    background-color: #0056b3; /* Darker background on hover */
+}
+
+
