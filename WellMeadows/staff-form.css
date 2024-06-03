@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #007bff;
+}
+
+.staff-number-box {
+    border-top: 1px solid #007bff;
+    display: inline-block;
+    border: 1px solid #dee2e6;
+    padding: 10px 20px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.card {
+    border-top: 1px solid #007bff;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.card-body {
+    border-top: 1px solid #007bff;
+    background-color: #f7fbff;
+    border-radius: 20px;
+}
+
+.card-title {
+    margin-bottom: 20px;
+}
+
+.form-control[readonly] {
+    background-color: #e9ecef;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.patient-details {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.patient-details p {
+    margin-bottom: 10px;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    width: 100%; /* Make button fill the form's width */
+    box-sizing: border-box; /* Include padding in the width */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 20px; /* Slightly rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-align: center;
+}
+button:hover {
+    background-color: #0056b3; /* Darker background on hover */
+}
